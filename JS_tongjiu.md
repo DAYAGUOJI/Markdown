@@ -89,7 +89,7 @@ document.getElementById('example_media_1_html5_api').playbackRate = 1.5
     <span style="font-size: smaller;">文章链接：</span>
 </p>
 
-https://github.com/ScantyTechTips/ScantyTechTips.github.io/blob/main/JS_tongjiu.md
+https://github.com/DAYAGUOJI/Markdown
 
 <p>
     <span style="font-size: smaller;">版权声明：原创文章，版权所有，转载时须注明出处。</span>
