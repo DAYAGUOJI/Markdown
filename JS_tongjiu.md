@@ -21,25 +21,29 @@
 
 #### 四、实现步骤
 1.按照“一、准备环节”的步骤正确将课程加入学习，并进入一个学习视频播放界面，如下图所示：
-![学习界面图片](pic/learning_video_ui.png)
+<img src="pic/learning_video_ui.png" alt="debug" width="80%">
 
+<div style="page-break-before: always;"></div>
 2.按下键盘上的F12键进入调试模式，如下图所示：
-![调试界面图片](pic/debug.png)
+
+<img src="pic/debug.png" alt="debug" width="80%">
+
 
 3.点选右边界面第一行UI第一个工具，图案为一个方框里面有一个箭头，如下图红框所示：
-![调试界面图片](pic/debug_2.png)
+<img src="pic/debug_2.png" alt="debug" width="80%">
 
+<div style="page-break-before: always;"></div>
 4.现在我们可以看到我们点击了该图标后图标转为高亮模式，这时我们已经进入了元素选择工具，鼠标变成了一个选择器，接下来，我们点击视频播放的区域，鼠标移动上去视频播放区域会高亮，如下图所示：
-![调试界面图片](pic/debug_3.png)
+<img src="pic/debug_3.png" alt="debug" width="80%">
 
 5.点击视频播放区域后，我们就可以在右侧控制台看到该视频的HTML代码，它同样也被高亮，上图右侧高亮区域所示。这时我们注意观察这段视频的id，即video id后面的参数，显示为`example_media_1_html5_api`。
 
 
 6.点击右侧界面最上方一栏UI的“Console”标签，一个命令行的UI，如下图红框所示：
-![调试界面图片](pic/debug_4.png)
+<img src="pic/debug_4.png" alt="debug" width="80%">
 
 7.之后点击控制台输入区域准备输入指令，如下图红框所示：
-![调试界面图片](pic/debug_5.png)
+<img src="pic/debug_5.png" alt="debug" width="80%">
 
 8.在控制台输入以下两条指令，回车执行（其中第一条指令是给予粘贴文本的权限，默认为关闭，第二条为倍速指令）即可实现倍速播放：
 ```
@@ -52,6 +56,8 @@ document.getElementById('example_media_1_html5_api').playbackRate = 1.5
 9.具体倍速可以自己调整，1.5倍速为推荐值，上限倍速为16，其他倍速值可以自行尝试。
 
 10.至此，倍速播放已经实现，开始你的高效率学习！
+
+<div style="page-break-before: always;"></div>
 
 #### 五、FAQ与提醒事项
 1.为什么我无法实现倍速播放？
