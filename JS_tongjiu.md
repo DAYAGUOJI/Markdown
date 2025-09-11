@@ -68,6 +68,23 @@ document.getElementById('example_media_1_html5_api').playbackRate = 1.5
 
 答：这里我们可以利用现代浏览器的自动播放策略，按下F12进入开发者模式后，在开发者模式下刷新页面，浏览器会认为这是一次非用户主动的加载，从而限制自动播放，让视频静音。
 
-文章作者：ScantyTechTips
-文章链接：https://github.com/ScantyTechTips/ScantyTechTips.github.io/blob/main/JS_tongjiu.md
-版权声明：原创文章，版权所有，转载时须注明出处。
+
+
+
+
+
+<p>
+    <span style="font-size: smaller;">文章作者：ScantyTechTips。</span>
+</p>
+<img src="pic/profile.png" alt="作者头像" style="width: 80px; height: 80px; border-radius: 50%;">
+
+
+<p>
+    <span style="font-size: smaller;">文章链接：</span>
+</p>
+
+https://github.com/ScantyTechTips/ScantyTechTips.github.io/blob/main/JS_tongjiu.md
+
+<p>
+    <span style="font-size: smaller;">版权声明：原创文章，版权所有，转载时须注明出处。</span>
+</p>
